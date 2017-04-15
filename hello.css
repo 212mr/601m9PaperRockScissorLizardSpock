@@ -1,0 +1,48 @@
+html {
+    min-width: 1500px;
+}
+
+#container {
+    width: 100%;
+    background: lightblue;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: yellow;
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: green;
+}
+
+#player1_image_div {
+    background-color: lightblue;
+}
+
+.player1_img {
+    width: 125px;
+    padding: 20px;
+    transition: all 0.1s, transform 0.5s;
+}
+
+.player1_img:hover {
+    /*width: 250px;*/
+    transform:scale(2);
+}
+
+#play_button_div {
+    width: 60px;
+    margin: 0 auto;
+    background-color: red;
+    clear: both;
+}
+
+#play_button {
+
+}

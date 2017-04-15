@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="hello.css">
+    <title>Mengru Zhang</title>
+    <script src="prlss.js"></script>
+</head>
+<body>
+<h1 align="center">Welcome to Mengru's <span style="color: red; font-size: 40px;">Paper Rock Lizard Spock Scissor</span>
+    Game!
+</h1>
+
+<div id="container">
+    <div id="left">
+        <div id="player1_image_div" align="center">
+            <img class="player1_img" src="Paper.png" alt=0>
+            <img class="player1_img" src="Rock.png" alt=1>
+            <img class="player1_img" src="Lizard.png" alt=2>
+            <img class="player1_img" src="Spock.png" alt=3>
+            <img class="player1_img" src="Scissor.png" alt=4>
+        </div>
+    </div>
+    <div id="right">
+            <div align="center">
+                <img id="player2_img" src="Scissor.png" height="250" width="250"/>
+            </div>
+    </div>
+</div>
+
+<div id="play_button_div">
+    <button id="play_button" onclick="startRandChange()">PLAY</button>
+    <p id="result"></p>
+</div>
+</body>
+</html>
