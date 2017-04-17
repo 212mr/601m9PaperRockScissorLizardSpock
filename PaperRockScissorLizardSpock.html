@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="my.css">
+    <title>Mengru Zhang</title>
+    <link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Snippet" rel="stylesheet">
+    <script src="prlss.js"></script>
+</head>
+<body>
+<h1 align="center">Welcome to Mengru's <span style="color: red; font-size: 40px;"> Paper Rock Lizard Spock Scissor </span>
+    Game!
+</h1>
+
+<div id="container">
+    <div id="left" align="center">
+        <div id="player1_image_div">
+            <img class="player1_img" src="Paper.png" alt=0>
+            <img class="player1_img" src="Rock.png" alt=1>
+            <img class="player1_img" src="Lizard.png" alt=2>
+            <img class="player1_img" src="Spock.png" alt=3>
+            <img class="player1_img" src="Scissor.png" alt=4>
+        </div>
+    </div>
+    <div id="right">
+            <div align="center">
+                <img id="player2_img" src="Scissor.png" height="200" width="200"/>
+            </div>
+    </div>
+</div>
+
+<div id="play_button_div">
+    <button id="play_button" onclick="startRandChange()"> PLAY </button>
+    <p id="result" align="center"></p>
+</div>
+
+<div>
+    <img id="rule_img" src="RPSLS_Rule.png" height="400" width="400"/></div>
+</body>
+</html>

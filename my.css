@@ -1,0 +1,90 @@
+html {
+    min-width: 1300px;
+    font-family: 'Montez', cursive;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    background: lightblue;
+}
+
+#left {
+    flex: 1;
+    /*width: 50%;*/
+    /*height: 100%;*/
+    /*float: left;*/
+    background: lightblue;
+    /*padding-top:40px;*/
+    /*padding-bottom: 10px;*/
+    /*padding-right: 20px;*/
+    /*padding-left: 20px;*/
+    /*padding-top:5%;*/
+}
+
+#right {
+    flex: 1;
+    /*width: 50%;*/
+    /*height: 100%;*/
+    /*float: left;*/
+    background: lightgreen;
+}
+
+#player1_image_div {
+    /*margin-top: 20px;*/
+    /*margin-bottom: 20px;*/
+    /*height: 80%;*/
+    background-color: lightblue;
+    /*width:95%;*/
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.player1_img {
+    /*vertical-align: middle;*/
+    /*border: 5px solid red;*/
+    width: 100px;
+    padding: 5px;
+    transition: all 0.1s, transform 0.5s;
+}
+
+.player1_img:hover {
+    transform:scale(2);
+}
+
+#play_button_div {
+    margin-top: 10px;
+    /*width: 200px;*/
+    /*margin: 0 auto;*/
+    /*background-color: red;*/
+    clear: both;
+}
+
+#play_button {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#result {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#rule_img_div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#rule_img {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    font-family: 'Montez', cursive;
+    font-weight: bold;
+}
+

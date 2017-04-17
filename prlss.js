@@ -1,4 +1,4 @@
-var result_array = ["DRAW", "PLAYER1_WINS", "PLAYER2_WINS"];
+var result_array = ["DRAW", "YOU WIN!", "COMPUTER WINS!"];
 var items = ["Paper", "Rock", "Lizard", "Spock", "Scissor"];
 var keepChangeFunc;
 
